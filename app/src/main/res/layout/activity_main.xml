@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Nombre" />
+        android:hint="Nombre *" />
 
     <EditText
         android:id="@+id/et_Apellidos"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Apellidos" />
+        android:hint="Apellidos *" />
 
     <EditText
         android:id="@+id/et_Edad"
@@ -43,7 +43,7 @@
             android:id="@+id/textView"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Sexo: "
+            android:text="* Sexo: "
             android:layout_gravity="center"/>
 
         <RadioGroup
@@ -78,7 +78,7 @@
             android:id="@+id/textView2"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Provincia: " />
+            android:text="* Provincia: " />
 
         <Spinner
             android:id="@+id/spProvincia"
